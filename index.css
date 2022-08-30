@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding:  0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+}
+/*Start Nav*/
+nav{
+	height: 15vh;
+	position: sticky;
+	top: 0;
+}
+
+a .navbar-brand{
+	min-height: 10rem;
+}
+
+.navbar-brand img{
+	white-space: normal;
+	height: 10rem;
+	width: 12rem;
+}
+
+.nav-link{
+	color: solid black;
+	font-weight: 600;
+	font-size: 1.5rem;
+	position: 3px;
+}
+/*Nav End*/
+
+
+/*Start Home*/
+#home{
+	position: relative;
+}
+.home-text{
+	font-weight: 600;
+	font-size: 5rem;
+}
+#home .row{
+/*	background-image: url(./images/dee.png);
+*/	position: relative;
+	height: 80vh;
+}
+#home img{
+	width: 20rem;
+	height: 20rem;
+}
+
+#home .btn{
+	background-color: #000000;
+	border-radius: 150px;
+}
+
+
+/*Home End*/
+
+#about-me{
+	position: relative;
+	height: 70vh;
+	width: 150vh;
+	padding: 1rem;
+	margin: 10rem;
+	background-color: #ECBDC4;
+	border-radius: 150px;
+
+}
+
+#about-me img{
+	height: 18rem;
+	width: 18rem;
+	border: solid;
+}
+
+#about-me ul{
+	list-style-type: none;
+}
+
+#about-me .socmed-item img{
+
+	height: 2rem;
+	width: 2rem;
+}
+
+/*Projects*/
+
+/*Projects End*/
+
+/*Contact*/
+.contact-me{
+	height: 40vh;
+}
+.form-contact{
+background-color: #ECBDC4;
+}
+
+/*Contact Ends*/
