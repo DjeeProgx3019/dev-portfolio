@@ -14,10 +14,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
-<body class="container-fluid text-center">
+<body class="text-center px-0 py-0">
 
 	<!-- Start Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light p-3">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light p-0">
 	  <a class="navbar-brand" href="#">
 	  	<img src="./images/iconlogo.png">
 	  </a>
@@ -25,40 +26,46 @@
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
-	    <ul class="navbar-nav ml-5">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Home</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">About Me</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Projects</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Contacts</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
+	    	<ul class="navbar-nav">
+	     		<li class="nav-item m-2">
+	       		  <a class="nav-link" href="#">Home</a>
+	     		</li>
+	     		<li class="nav-item m-2">
+	       		  <a class="nav-link" href="#about-me">About Me</a>
+	   		    </li>
+	   		    <li class="nav-item m-2">
+	     		  <a class="nav-link" href="#projects">Projects</a>
+	    		</li>
+	     	    <li class="nav-item m-2">
+	       		  <a class="nav-link" href="#contact-me">Contact Me</a>
+	     		</li>
+	        	</ul>
+	     </div>
+	      </nav>
+	   </div>
 	<!-- Navbar End -->
 
 	
 		<!-- Start Landing page -->
-		<div id="home"class="container-fluid p-3">
-			<div class="row">
-			<div class="col-sm-12 text-dark p-2">
-				<h1 class="home-text">Design, Develop, Deploy</h1>
-				<h3>I am a full-stack developer who develops website with </h3>
-			
-				<div class="col-sm-12 p-2">
-					<img src="./images/dee-avatar.jpg" class="img-fluid border border-round rounded-circle">
-				</div>
-				<button type="button" class="btn text-white p-3">Download CV</button>
+		<div id="home" class="container-fluid text-center p-3 mb-5">
+			<div class="row text-center">
+			<div class="col-12 text-dark text-center">
+				<h1> I <span class="auto-type text-white"></span> Websites.</h1>
+				
+				<h3>I am Dee. I build websites that runs cross platforms.</h3>
 			</div>
-			
-		</div>
-	</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-12 p-2">
+						<img src="./images/dee-avatar.jpg" class="img-fluid border border-round rounded-circle">
+					</div>
+					<div class="col-12">
+						<button type="button" class="btn text-white">Download CV</button>
+						<button type="button" class="btn text-white">Learn More</button>
+						</div>
+				</div>
+			</div>
+
 		<!--Landing Page End -->
 
 		<!-- Floating Menu -->
@@ -67,105 +74,105 @@
 
 
 		<!-- Start About Me -->
-		<div id="about-me" class="col-12 container-fluid text-center text-dark p-5 d-flex flex-wrap">
-			<div class="row text-center">
-				<div class="col-xl-6 mt-2">
+		<div id="about-me" class="about-me container-fluid bg-dark text-white p-5">
+			<h2>About Me</h2>
+			<div class="row justify-content-center text-center p-3">
+				<div class="col-6 p-2">
 					<img src="./images/nur.png" class="img-fluid border border-round rounded-circle">
 				</div>
-				<div class="text col-xl-6 text-dark justify-content-center">
-					I am Nur-Radia G. Lagoyo! I am a full stack developer specializing with Javascript
+				<div class="text col-6 text-white justify p-2">
+					I am Nur-Radia G. Lagoyo! I am a full stack developer specializing with Javascript.
 					I work on projects incuding websites and mobile development.
-				  I usually spend my free time reading about data science and trends of 2022 Technology and playing PC games.
-					<p>"If you’re not a good shot today, don’t worry. There are other ways to be useful! ShakDART!"</p>
-			
-			<div class="soc-med d-flex flex-wrap text-center p-5">
-						 <div class="socmed-item"><a href=""><img src="./images/facebook.png"></a></div> 
-						 <div class="socmed-item"><a href=""><img src="./images/instagram.png"></a></div> 
-						 <div class="socmed-item"><a href=""><img src="./images/linkedin.png"></a></div> 
-						 <div class="socmed-item"><a href=""><img src="./images/github-logo.png"></a></div>   
-						  
-				</div>
+				    I usually spend my free time reading about data science and trends of 2022 Technology and playing PC games.
+					<p>"Remember, your weapon is only a tool. You can't just shoot, you have to think!"</p>
 			</div>
+				</div>
 
-			
+			<div class="socmed d-flex flex-row bd-highlight justify-content-center p-2">
+				<div class="socmed-item p-2 bd-highlight"><a href=""><img src="./images/linkedin.png"></a></div>
+				<div class="socmed-item p-2 bd-highlight"><a href=""><img src="./images/github-logo.png"></a></div>
+				<div class="socmed-item p-2 bd-highlight"><a href=""><img src="./images/facebook.png"></a></div>
+				<div class="socmed-item p-2 bd-highlight"><a href=""><img src="./images/instagram.png"></a></div>
+							
+				</div>
 		</div>
-	</div>
 		<!-- About Me End -->
 
 
 		<!-- Start Projects -->
-		<h2>My Projects</h2>
-		<div class="row d-none d-md-block mt-md-5">
-                        <div class="offset-xl-3 col-xl-6">
-                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img src="./images/e-commerce.png" class="d-block w-100" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/women.png" class="d-block w-100" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Second slide label</h5>
-                                            <p>Some representative placeholder content for the second slide.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="./images/sdg.png" class="d-block w-100" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
-                                            <p>Some representative placeholder content for the third slide.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-					</div>
+		<div id="projects" class="projects container-fluid text-center mt-5 ">
+			
+			<div class="row">
+			<div class="col-12">
+			<h1 class="h1-project text-center">My Projects</h1>
+		          <div id="project" class="carousel slide bg-dark" data-ride="carousel">
+		            <ol class="carousel-indicators">
+		              <li data-target="#project" data-slide-to="0" class="active"></li>
+		              <li data-target="#project" data-slide-to="1"></li>
+		              <li data-target="#cproject" data-slide-to="2"></li>
+		            </ol>
+		            <div class="carousel-inner p-5 m-auto ">
+		              <div class="carousel-item active">
+		                <img src="./images/e-commerce.png" class="d-block w-100 img-fluid">
+		                <div class="carousel-caption text-dark">
+		                  <p>E-commerce Project</p>
+		                </div>
+		              </div>
+		              <div class="carousel-item">
+		                <img src="./images/women.png" class="d-block w-100 img-fluid">
+		                <div class="carousel-caption text-dark">
+		                  <p>Women TechMakers</p>
+		                </div>
+		              </div>
+		              <div class="carousel-item">
+		                <img src="./images/sdg.png" class="d-block w-100 img-fluid">
+		                <div class="carousel-caption text-dark">
+		                  <p>Sustainable Development Goals</p>
+		                </div>
+		              </div>
+		            </div>
+		            <a class="carousel-control-prev" href="#project" role="button" data-slide="prev">
+		              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		              <span class="sr-only">Previous</span>
+		            </a>
+		            <a class="carousel-control-next" href="#project" role="button" data-slide="next">
+		              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		              <span class="sr-only">Next</span>
+		            </a>
+		          </div>	
+
+			</div>	
+
+			</div>
+		        </div>
 		<!-- Projects End -->
 
 
 
 		<!-- Start Contact Me -->
 
-  <div class="contact-me container fluid my-5">
-  	<h2>Contact Me</h2>
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-4 col-xl-4">
-          <form class="form-contact p-2">
+  <div id="contact-me" class="contact-me container-fluid text-white bg-dark fluid my-3">
+  	<h1>Contact Me</h1>
+      <div class="row p-3 ml-5">
+        <div class="form col-sm-12 col-md-4 col-xl-4">
+          <form class="form-contact text-dark p-0 w-100 h-100">
        
-            <div class="form-group mx-3">
+            <div class="form-group mx-2 my-0 py-0">
               <label for="name">Name</label>
                  <input type="name" class="form-control" id="Your Name" aria-describedby="nameHelp" placeholder="Your Name">
           </div>
 
-          <div class="form-group mx-3">
+          <div class="form-group mx-2 my-0 py-0">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
           </div>
 
-          <div class="form-group mx-3">
+          <div class="form-group mx-2 my-0 py-0">
               <label for="exampleInputPassword1">Contact Number</label>
               <input type="contact-number" class="form-control" placeholder="+63 900 000 0000">
             </div>
 
-          <div class="form-group mx-3">
+          <div class="form-group mx-2 my-0 py-0">
             <label for="concern">Concern</label>
             <select class="form-control">
               <option>Quotation</option>
@@ -174,10 +181,10 @@
             </select>
            </div>
           
-        <div class="form-group mx-3">
+        <div class="form-group p-2  mx-2">
             <label for="exampleInputPassword1">Message</label>
             
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
          </div>
 
          <!-- Button Modal -->
@@ -188,11 +195,10 @@
        </form>
         </div>
 
-        <div classs="col-sm-12 col-md-4 col-xl-">
+        <div class="col-sm-12 col-md-4 col-xl-6 p-5">
         	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7870342495607!2d122.13594891400194!3d6.916046420395912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3250428da223d8db%3A0xa2843dabc748c639!2sMampang%20-%20Arena%20Blanco%20Rd%2C%20Zamboanga%2C%20Zamboanga%20del%20Sur!5e0!3m2!1sen!2sph!4v1661523062722!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-    </div>
   </div>
 
   <!-- Modal -->
@@ -217,14 +223,49 @@
   </div>
 		<!-- Contact Me End -->
 
+		
+
 	
-
-
 
 
 
 	<!-- JS Bundle -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+		var typed= new Typed(".auto-type", {
+			strings: ["Design", "Develop", "Deploy"],
+			typeSpeed: 150,
+			backSpeed: 150,
+			loop: true
+
+		})
+	</script>
+
+			
+	</body>
+
+<!-- Footer -->
+<footer class="page-footer font-small text-white pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center">
+      
+        <!-- Content -->
+        <h5 class="text-uppercase">NUR-RADIA LAGOYO</h5>
+        <p>.</p>
+
+      </div>
+     
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 </html>

@@ -4,14 +4,12 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-
 body{
+	background-color: #f9d100;
 }
 /*Start Nav*/
 nav{
-	height: 15vh;
-	position: sticky;
-	top: 0;
+background-color: #f9d100;
 }
 
 a .navbar-brand{
@@ -21,7 +19,6 @@ a .navbar-brand{
 .navbar-brand img{
 	white-space: normal;
 	height: 10rem;
-	width: 12rem;
 }
 
 .nav-link{
@@ -37,65 +34,127 @@ a .navbar-brand{
 #home{
 	position: relative;
 }
-.home-text{
-	font-weight: 600;
-	font-size: 5rem;
+#home h1{
+	font-size: 4rem;
+	font-weight: 800;
 }
-#home .row{
-/*	background-image: url(./images/dee.png);
-*/	position: relative;
-	height: 80vh;
-}
+
 #home img{
-	width: 20rem;
-	height: 20rem;
+	height: 14rem;
+	width: 14rem;
+	border: solid black;
+	position: relative;
 }
-
-#home .btn{
-	background-color: #000000;
+#home button{
+	background-color: #111111;
 	border-radius: 150px;
+	position: relative;
 }
-
-
 /*Home End*/
 
-#about-me{
-	position: relative;
-	height: 70vh;
-	width: 150vh;
-	padding: 1rem;
-	margin: 10rem;
-	background-color: #ECBDC4;
-	border-radius: 150px;
+/*Start About me*/
 
+#about-me {
+	border-radius: 100px;
+	padding: 5rem;
+	min-height: 70vh;
+	min-width: 150vh;
 }
-
+#about-me h2{
+	font-weight: 600;
+	font-size: 2.5rem;
+}
 #about-me img{
-	height: 18rem;
-	width: 18rem;
-	border: solid;
+	height: 20rem;
+	width: 20rem;
 }
 
-#about-me ul{
-	list-style-type: none;
+#about-me .text{
+	font-size: 1.8rem;
 }
 
+#about-me .text p{
+	font-size: 1.5rem;
+	text-orientation: sideways;
+}
 #about-me .socmed-item img{
+	height: 2.5rem;
+	width: 2.5rem;
+	background-color: #f9d100;
+	border-radius: 150px;
+}
+#about-me p{
+	font-style: italic;
+}
+/*About Me End*/
 
-	height: 2rem;
-	width: 2rem;
+/*Start projects*/
+.projects{
+	width: 150vh;
+}
+#project{
+	border-radius: 50px;
 }
 
-/*Projects*/
+.projects .carousel-inner img{
+	border-radius: 50px;
+}
+.projects h1{
+	font-weight: 600;
+	font-size: 2.5rem;
+
+}
+.projects img{
+
+height: 70vh;
+
+}
+
+.carousel-item .carousel-caption{
+	font-weight: 600;
+	font-size: 2rem;
+}
+
 
 /*Projects End*/
 
-/*Contact*/
+/*Start Contact Me*/
 .contact-me{
-	height: 40vh;
-}
-.form-contact{
-background-color: #ECBDC4;
+	border-radius: 150px;
+	width: 150vh;
 }
 
-/*Contact Ends*/
+.contact-me h2{
+
+}
+.contact-me .row{
+	position: relative;
+	height: 90vh;
+	padding: 0;
+
+}
+.contact-me .form{
+	position: relative;
+	background-color: #f9d100 ;
+	border-radius: 50px;
+	height: 80vh;
+}
+.contact-me .form-contact{
+	position: relative;
+}
+.contact-me .form-group{
+font-size: 1rem;
+padding: 0;
+}
+
+iframe{
+    border-radius: 100px;
+    height: 25rem;
+    width: 25rem;
+}
+/*Contact Me Ends*/
+
+/*Start Footer*/
+footer{
+	background-color: #000000;
+}
